@@ -1,0 +1,105 @@
+body{
+    background: linear-gradient(180deg,
+         rgba(214,213,230,1) 0%,
+         rgba(0,212,255,1) 100%);
+         margin: 2%;
+         overflow: scroll;
+}
+
+h1{
+    margin-left:15%;
+    margin-top: 2%;
+    color: dimgrey;
+    position:relative;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:
+}
+
+
+
+
+.titre{
+    color:rgb(13, 18, 186);
+}
+
+.button{
+    background-color: blue;
+    border: none;
+    border-radius: 10%;
+    position:relative;
+    float:right;
+    margin-right:15% ;
+    margin-bottom:2% ;
+    width: 150px;
+    height: 100px;
+    color: aliceblue;
+}
+.button:hover{
+    background-color: rgb(52, 52, 231);
+}
+
+
+
+
+
+img{
+    width: 150px;height: 100px;
+    border-radius: 10%;
+}
+
+#menu ul{
+    margin:0;
+    padding-left:0;
+    list-style-type: none;
+    text-align: center;
+}
+
+#menu li{
+    float:left;
+    padding: 0;
+    font-family:Georgia;
+    font-weight: bolder;
+    position: inherit;
+    padding-left: 5%;
+}
+
+#menu ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+}
+
+#menu li a:hover{
+    filter:brightness(120%);
+}
+
+#menu ul li ul {
+    display: none;
+}
+
+#menu ul li:hover ul{
+    display: block;
+    position: inherit;
+}
+#menu ul li:hover .option{
+    display: none;
+}
+#menu ul li .hov{
+    display: none;
+}
+#menu ul li:hover .hov{
+    display: block;
+    margin: 0;
+}
+#menu li:hover ul li{
+    float:none;
+}
+#menu li ul{position:relative;}
+
+
